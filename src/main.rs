@@ -1,11 +1,7 @@
 fn main() {
-    for i in 1..101 {
-        if (i % 3) == 0 && (i % 5) == 0 {
-            println!("{}FizzBuzz", i);
-        } else if (i % 3) == 0 {
-            println!("{}Fizz", i);
-        } else if (i % 5) == 0 {
-            println!("{}Buzz", i);
+    for i in 1..51 {
+        if (i % 3) == 0 || (i % 10) == 3 {
+            println!("{} A", i);
         } else {
             println!("{}", i);
         }
